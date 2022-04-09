@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #9c6392;
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+}
+
+
+/*encabezado*/
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: rgb(144, 104, 156);
+  width: 100%;
+  height: 48px;
+  margin-bottom: 20px;
+}
+
+/*ta bien?*/
+.letraG {
+  height: 48px;
+  line-height: 48px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.letraG img {
+  height: 35px;
+  width: auto;
+  vertical-align: middle;
+}
+
+/*Menú navegación*/ /*como hacer que quede todo junto sin moverse arriba*/
+header nav {
+  text-align: center;
+  height: 48px;
+  line-height: 48px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+
+  /*separar palabras*/
+
+  /*float: right;*/
+}
+
+header nav ul li {
+  margin-left: 15px;
+}
+
+header nav ul li a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.titulo {
+  font-size: 45px;
+}
+
+/*banner*/
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-banner {
+  font-size: 38px;
+  width: 640px;
+}
+
+.logo-banner {
+  width: 240px;
+  height: auto;
+}
+
+.sub1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+ol {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.video {
+  text-align: center;
+}
+
+.imagen1 {
+  text-align: center;
+}
+
+.sub2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.imagen2 {
+  text-align: center;
+}
+
+/*sign up y contact*/
+
+/*formulario*/
+
+.formulario {
+  text-align: center;
+}
+
+.fieldset {
+  padding: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+/*pie de página*/
+footer {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid whitesmoke;
+  padding-top: 10px;
+}
+
+/*more exams*/
+
+.subMoreExams {
+  font-size: 30px;
+  text-align: center;
+}
+
+.imagen3 {
+  text-align: center; /*centrar asi?*/
+}
+
+.imagen4 {
+  text-align: center;
+  margin-top: 20px;
+}
